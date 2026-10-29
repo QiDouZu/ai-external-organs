@@ -5,7 +5,7 @@
     python cloud_port.py          # 另开一个终端/后台
     python cloud_savor.py BV12pp16eEfh
 
-流程（阿余 2026-10-28）：
+流程（作者 2026-10-28）：
 1. 本地收：帧（首尾+均匀）、字幕（bv.py text）、音频特征（逐窗质心/中频/静音）
 2. 合成一个证据包
 3. POST http://127.0.0.1:53414/savor → 云端一次推理
