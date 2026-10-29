@@ -1,0 +1,5 @@
+﻿__pycache__/
+*.pyc
+_ea_cache/
+_savor_out.json
+*.wav
